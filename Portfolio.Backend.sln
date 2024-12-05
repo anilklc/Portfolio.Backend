@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1F9B52E5-0D5E-4825-BD36-10172134FCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Application", "Core\Portfolio.Application\Portfolio.Application.csproj", "{974693F5-0C07-4007-8299-FEE3E2EE8AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C26CC30D-1E95-4ECC-BA2F-09A98C2FA021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Persistence", "Infrastructure\Portfolio.Persistence\Portfolio.Persistence.csproj", "{97AF4AA9-C23D-444E-B697-042541F11C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Domain", "Core\Portfolio.Domain\Portfolio.Domain.csproj", "{A02623C4-5188-4D5D-A790-5044529E88D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D6F09BC1-D31C-4989-9FE8-3E0621892C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.API", "Presentation\Portfolio.API\Portfolio.API.csproj", "{A6E70400-1E87-4CC2-914D-4B1107D1896B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Infrastructure", "Portfolio.Infrastructure\Portfolio.Infrastructure.csproj", "{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974693F5-0C07-4007-8299-FEE3E2EE8AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974693F5-0C07-4007-8299-FEE3E2EE8AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974693F5-0C07-4007-8299-FEE3E2EE8AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974693F5-0C07-4007-8299-FEE3E2EE8AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AF4AA9-C23D-444E-B697-042541F11C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AF4AA9-C23D-444E-B697-042541F11C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AF4AA9-C23D-444E-B697-042541F11C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AF4AA9-C23D-444E-B697-042541F11C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02623C4-5188-4D5D-A790-5044529E88D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02623C4-5188-4D5D-A790-5044529E88D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02623C4-5188-4D5D-A790-5044529E88D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02623C4-5188-4D5D-A790-5044529E88D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E70400-1E87-4CC2-914D-4B1107D1896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E70400-1E87-4CC2-914D-4B1107D1896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E70400-1E87-4CC2-914D-4B1107D1896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E70400-1E87-4CC2-914D-4B1107D1896B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{974693F5-0C07-4007-8299-FEE3E2EE8AB7} = {1F9B52E5-0D5E-4825-BD36-10172134FCBF}
+		{97AF4AA9-C23D-444E-B697-042541F11C64} = {C26CC30D-1E95-4ECC-BA2F-09A98C2FA021}
+		{A02623C4-5188-4D5D-A790-5044529E88D7} = {1F9B52E5-0D5E-4825-BD36-10172134FCBF}
+		{A6E70400-1E87-4CC2-914D-4B1107D1896B} = {D6F09BC1-D31C-4989-9FE8-3E0621892C48}
+		{787A047E-F1CE-4E0A-9AD9-AB33654BAFA0} = {C26CC30D-1E95-4ECC-BA2F-09A98C2FA021}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56812683-500F-42A3-BA39-F9DEC3497CE6}
+	EndGlobalSection
+EndGlobal
